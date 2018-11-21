@@ -13,3 +13,7 @@ print(j)
 j = abs(j)
 print(j)
 
+import math
+math.pi
+
+print(round(math.pi,3))

@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1b1ba770-c6da-4b78-9df4-f25b003bdf02</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>float.py</StartupFile>
+    <StartupFile>Math.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,7 +24,13 @@
     <Compile Include="bool.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="dynamic_typing.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="float.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Math.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PythonApplication_Example1.py" />
