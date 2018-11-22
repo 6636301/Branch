@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1b1ba770-c6da-4b78-9df4-f25b003bdf02</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Math.py</StartupFile>
+    <StartupFile>Cycles.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="bool.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cycles.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="dynamic_typing.py">
