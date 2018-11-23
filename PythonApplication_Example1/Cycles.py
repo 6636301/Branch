@@ -1,6 +1,12 @@
-x =int(input("Press A: "))
-if x > 5: 
-    print("This nimber is greater then five")
+x = float(input("Enter number2: "))
 
-if number is not None:
-    pass #TODO: add some logic here later
+if 0 < x < 7:
+        print("Value in range, let's continue")
+        y = 2 * x - 5
+        if (y > 0):
+            print("y is possitive")
+        else:
+            if (y < 0):
+                print("y is negative")
+            else:
+                print("y is 0")
