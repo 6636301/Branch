@@ -9,3 +9,4 @@ if (0 < x < 7):
         print("y smaller then 0")
     else:
          print("y is 0")
+           
