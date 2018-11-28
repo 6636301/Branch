@@ -2,19 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>1b1ba770-c6da-4b78-9df4-f25b003bdf02</ProjectGuid>
+    <ProjectGuid>d5d57968-5208-417a-af68-da7ffd821be7</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>truth_valuse_testing.py</StartupFile>
+    <StartupFile>while_example3.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PythonApplication_Example1</Name>
-    <RootNamespace>PythonApplication_Example1</RootNamespace>
-    <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
-    <IsWindowsApplication>False</IsWindowsApplication>
-    <InterpreterId>Global|PythonCore|3.6</InterpreterId>
+    <Name>Lesson4</Name>
+    <RootNamespace>Lesson4</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -25,35 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="bool.py">
+    <Compile Include="while_example1.py" />
+    <Compile Include="while_example2.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Condition.py">
+    <Compile Include="while_example3.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Cycles.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="dynamic_typing.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="elif_switch.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="float.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Math.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="PythonApplication_Example1.py" />
-    <Compile Include="truth_valuse_testing.py">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <InterpreterReference Include="Global|PythonCore|3.6" />
-    <InterpreterReference Include="Global|PythonCore|3.7-32" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
